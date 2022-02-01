@@ -10,11 +10,11 @@ class HomeController extends Controller
 {
     public function home() {
 
-        $comic = Comic::all();
+        $comics = Comic::all();
 
         // dd($comic);
 
-        return view('pages.home', compact('comic'));
+        return view('pages.home', compact('comics'));
     }
 
     public function show($id) {

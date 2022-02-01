@@ -1,6 +1,6 @@
 @extends('layouts.main-layout')
 @section('content')
-    <h1>Lista</h1>
+    <h1>Lista:</h1>
     <ul>
         @foreach ($comics as $comic)
             <li>
